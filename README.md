@@ -1,0 +1,5 @@
+# Characterizing DST Metaparams
+
+Due to the nature of the Dunn, significant effort is required to track the quality, pointing, and timing information of the telescope. No given Level-0 file has all of the things you need, and every day is different, with occasional failures to throw you off. These functions should allow you to parameterize what the telescope was doing, what it saw, how well it saw it, and for how long, as well as generate fancy plots and webpages for all of it.
+
+IF you are not me, do not attempt to just use these functions. Email me, and we can chat about it. The reason for this is that while everything in the base directory is reasonably well-written, it is hyper-specific to the Dunn, and adapted from some functions that were NOT well-written because they had to be written quick. These are still in the original funcs directory. My hope is that by Jan '24 all of these will be integrated as well into the Django framework I'm constructing, and nobody will ever have to look at these again. At time of writing the database fill code is nearly done, so these should only ever have to be run on newly added datasets.
